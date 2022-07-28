@@ -1,0 +1,228 @@
+{
+  "menus": {
+    "en-US": {
+      "*": [
+        {
+          "path": "/",
+          "title": "Hello!",
+          "meta": {}
+        }
+      ],
+      "/algorithm": [
+        {
+          "path": "/algorithm",
+          "title": "算法路漫漫",
+          "meta": {}
+        },
+        {
+          "title": "二叉树",
+          "path": "/algorithm/二叉树",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "力扣合集",
+          "path": "/algorithm/力扣合集",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "动态规划",
+          "path": "/algorithm/动态规划",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "排序",
+          "path": "/algorithm/排序",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "数组",
+          "path": "/algorithm/数组",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "贪心",
+          "path": "/algorithm/贪心",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "队列",
+          "path": "/algorithm/队列",
+          "meta": {},
+          "children": []
+        }
+      ],
+      "/network": [
+        {
+          "path": "/network",
+          "title": "首页",
+          "meta": {}
+        },
+        {
+          "title": "安全",
+          "path": "/network/安全",
+          "meta": {},
+          "children": [
+            {
+              "path": "/network/安全",
+              "title": "xss攻击讲一下，如何预防？",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "网络模型",
+          "path": "/network/网络模型",
+          "meta": {},
+          "children": [
+            {
+              "path": "/network/网络模型/osi7层",
+              "title": "OSI七层模型",
+              "meta": {}
+            }
+          ]
+        }
+      ],
+      "/other": [
+        {
+          "path": "/other",
+          "title": "其他",
+          "meta": {}
+        },
+        {
+          "title": "Git",
+          "path": "/other/git",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "设计模式",
+          "path": "/other/设计模式",
+          "meta": {},
+          "children": []
+        }
+      ],
+      "/web": [
+        {
+          "path": "/web",
+          "title": "首页",
+          "meta": {}
+        },
+        {
+          "title": "CSS",
+          "path": "/web/css",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "HTML",
+          "path": "/web/html",
+          "meta": {},
+          "children": [
+            {
+              "path": "/web/html",
+              "title": "HTML零碎",
+              "meta": {}
+            },
+            {
+              "path": "/web/html/html5新特性",
+              "title": "HTML5特性",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "JavaScript",
+          "path": "/web/java-script",
+          "meta": {},
+          "children": [
+            {
+              "path": "/web/java-script",
+              "title": "JavaScript",
+              "meta": {}
+            },
+            {
+              "path": "/web/java-script/es6",
+              "title": "ES6",
+              "meta": {}
+            }
+          ]
+        },
+        {
+          "title": "Vue",
+          "path": "/web/vue",
+          "meta": {},
+          "children": []
+        },
+        {
+          "title": "浏览器",
+          "path": "/web/浏览器",
+          "meta": {},
+          "children": [
+            {
+              "path": "/web/浏览器",
+              "title": "解读CSS DOM JS顺序",
+              "meta": {}
+            },
+            {
+              "path": "/web/浏览器/跨域",
+              "title": "浏览器加载的事件",
+              "meta": {}
+            },
+            {
+              "path": "/web/浏览器/输入网址",
+              "title": "讲讲浏览器从输入网址到打开网页的整个过程，越细致越好。",
+              "meta": {}
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "locales": [
+    {
+      "name": "en-US",
+      "label": "English"
+    }
+  ],
+  "navs": {
+    "en-US": [
+      {
+        "title": "前端",
+        "order": 1,
+        "path": "/web"
+      },
+      {
+        "title": "计算机网络",
+        "order": 2,
+        "path": "/network"
+      },
+      {
+        "title": "算法",
+        "order": 3,
+        "path": "/algorithm"
+      },
+      {
+        "title": "其他",
+        "order": 4,
+        "path": "/other"
+      },
+      {
+        "title": "GitHub",
+        "path": "https://github.com/h-sina"
+      }
+    ]
+  },
+  "title": "H前端本营",
+  "mode": "site",
+  "repository": {
+    "url": "",
+    "branch": "master"
+  },
+  "theme": {}
+}
